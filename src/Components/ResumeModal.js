@@ -43,7 +43,7 @@ export default function BasicModal() {
           <CardContent>
           </CardContent>
           <CardActions style={{justifyContent:'center'}}>
-            <Link href="https://www.linkedin.com/in/ian-jordan-aa6ab8207/overlay/1635480584948/single-media-viewer/" target="_blank">
+            <Link href="https://www.linkedin.com/in/ian-jordan-aa6ab8207/overlay/1635480584948/single-media-viewer/" target="_blank" rel="noreferrer">
             <Button size="small" variant="contained" color="success" >Visit</Button>
             </Link>
           </CardActions>

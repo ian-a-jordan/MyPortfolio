@@ -32,11 +32,11 @@ function HomePage(){
                     </p>
                     
                     <div className="icons">
-                    <a href="https://github.com/alfredjordian" target="_blank" className="icon-holder">
+                    <a href="https://github.com/alfredjordian" target="_blank" rel="noreferrer" className="icon-holder">
                         
                         <FontAwesomeIcon icon={faGithub} className="icon gh"/>
                         </a>
-                        <a href="https://www.linkedin.com/in/ian-jordan-aa6ab8207/" target="_blank" className="icon-holder">
+                        <a href="https://www.linkedin.com/in/ian-jordan-aa6ab8207/" target="_blank" rel="noreferrer" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon li"/>
                         </a>
                         

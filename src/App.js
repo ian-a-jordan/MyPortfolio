@@ -43,7 +43,7 @@ function App (){
                     <ContactPage />
                     </Route>
                 </Switch>
-                </AnimatePresence>
+            </AnimatePresence>
             </div>
         </div>
         </div>
