@@ -14,7 +14,6 @@ function AboutPage() {
             <Title title={'My Skills'} span={'My Skills'} />
             <div className="skils-container">
                 <SkillsSections skill={'Javascript'} progress={'70%'} width={'70%'}/>
-                <SkillsSections skill={'Solidity'} progress={'40%'} width={'40%'}/>
                 <SkillsSections skill={'C#'} progress={'70%'} width={'70%'}/>
                 <SkillsSections skill={'React'} progress={'90%'} width={'90%'}/>
                 <SkillsSections skill={'Node.js'} progress={'90%'} width={'90%'}/>
@@ -25,12 +24,12 @@ function AboutPage() {
                 <SkillsSections skill={'CSS3'} progress={'90%'} width={'90%'}/>
                 <SkillsSections skill={'Blazor (WebAssembly)'} progress={'60%'} width={'60%'}/>
                 <SkillsSections skill={'Express'} progress={'55%'} width={'55%'}/>
-                <SkillsSections skill={'GIT'} progress={'90%'} width={'90%'}/>
+                <SkillsSections skill={'GIT'} progress={'60%'} width={'60%'}/>
             </div>
             <Title title={'Services'} span={'Services'} />
             <div className="services-container">
                 <ServicesSection image={design} title={'Front-end Technology'} text={'HTML5, CSS3, Javascript, React, Web3, MaterialUI, Blazor'}/>
-                <ServicesSection image={design} title={'Back-end Development'} text={'.NET, C#, Node.js, SQL, Solidity'}/>
+                <ServicesSection image={design} title={'Back-end Development'} text={'.NET, C#, Node.js, SQL'}/>
                 <ServicesSection image={design} title={'Database and Cache'} text={'SQL(Structed Query Language), MongoDB, Azure'}/>
             </div>
         </motion.div>

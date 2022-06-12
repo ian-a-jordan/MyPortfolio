@@ -37,7 +37,7 @@ export default function BasicModal() {
           <Card sx={style}>
           <CardMedia
             component="img"
-            image="src\img\portImages\ResumeForPortfolio.jpg"
+            image="https://media-exp1.licdn.com/dms/image/C4D2DAQFYKsrnac8RjA/profile-treasury-image-shrink_1280_1280/0/1642733967977?e=2147483647&v=beta&t=a92jQrI4yADebBp-Q_qvqFs9A4LOXo6UOL_xIERey4g"
             alt="Resume"
           />
           <CardContent>
