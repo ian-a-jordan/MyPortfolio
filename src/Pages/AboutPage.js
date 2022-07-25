@@ -22,7 +22,7 @@ function AboutPage() {
                 <SkillsSections skill={'.NET'} progress={'60%'} width={'60%'}/>
                 <SkillsSections skill={'HTML5'} progress={'100%'} width={'100%'}/>
                 <SkillsSections skill={'CSS3'} progress={'90%'} width={'90%'}/>
-                <SkillsSections skill={'Blazor (WebAssembly)'} progress={'60%'} width={'60%'}/>
+                <SkillsSections skill={'Blazor (WebAssembly)'} progress={'40%'} width={'40%'}/>
                 <SkillsSections skill={'Express'} progress={'55%'} width={'55%'}/>
                 <SkillsSections skill={'GIT'} progress={'60%'} width={'60%'}/>
             </div>
