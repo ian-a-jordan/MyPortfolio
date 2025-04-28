@@ -19,7 +19,7 @@ function HomePage(){
             </div>
 
             <div className="HomePage">
-                <div style={{marginLeft:'40%', marginBottom:'4%'}}>
+                <div style={{display: 'flex', justifyContent: 'center', marginBottom:'4%'}}>
                     <Cube />
                 </div>
                 <header className="hero">
@@ -32,7 +32,7 @@ function HomePage(){
                     </p>
                     
                     <div className="icons">
-                    <a href="https://github.com/alfredjordian" target="_blank" rel="noreferrer" className="icon-holder">
+                    <a href="https://github.com/ian-a-jordan" target="_blank" rel="noreferrer" className="icon-holder">
                         
                         <FontAwesomeIcon icon={faGithub} className="icon gh"/>
                         </a>

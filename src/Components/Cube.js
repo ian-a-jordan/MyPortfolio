@@ -64,7 +64,7 @@ class Cube extends Component {
       this.setState({
         degX
       });
-    }, 200);
+    }, 25);
     this.setState({ intervallId });
   }
   componentWillUnmount() {

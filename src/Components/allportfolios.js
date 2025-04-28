@@ -1,19 +1,19 @@
 import port1 from "../img/portImages/artcollector.png";
-import port4 from "../img/portImages/pixelartthumbnail.png";
+import port4 from "../img/portImages/foliocrafterThumbnail.png";
 import port5 from "../img/portImages/strangerthingsheadshot.png";
 
 const portfolios = [
   {
     id: 1,
-    category: "JQuery Projects",
-    link1: "https://pixeldraww.netlify.app/",
+    category: "FullStack",
+    link1: "https://foliocrafter.netlify.app/",
     link2: "www.github.com",
     icon1: "Website",
     icon2: "Y",
     image: port4,
-    title: "Pixel Art",
+    title: "FolioCrafter",
     paragraph:
-      "Game made with JQuery",
+      "Portfolio crafting website, that utilizes ChatGPT - to analyze your github repo and help create you a resume (backend still under construction).",
   },
   {
     id: 2,
