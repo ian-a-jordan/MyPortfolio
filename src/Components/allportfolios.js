@@ -2,6 +2,13 @@ import port1 from "../img/portImages/artcollector.png";
 import port4 from "../img/portImages/foliocrafterThumbnail.png";
 import port5 from "../img/portImages/strangerthingsheadshot.png";
 
+// PLACE THIS IN PACKAGE LOCK WHEN RUNNING LOCALLY
+// "scripts": {
+//   "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+//   "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+//   "test": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
+//   "eject": "react-scripts eject"
+// },
 const portfolios = [
   {
     id: 1,
