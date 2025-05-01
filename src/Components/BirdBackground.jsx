@@ -28,7 +28,7 @@ function BirdBackground() {
         color1: 0x20b66f,
         color2: 0x25ff08,
         birdSize: 1.5,
-        quantity: 3,
+        quantity: 4,
         speedLimit: 4.0,
       });
 
