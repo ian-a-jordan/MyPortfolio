@@ -30,6 +30,11 @@
 }
 
 .ContactPage{
+    position: relative;
+    z-index: 2;
+    background-color: #10121B;
+    padding: 1rem;
+    border-radius: 25px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 6rem;

@@ -9,6 +9,7 @@ import Homepage from './Pages/HomePage.jsx';
 import AboutPage from './Pages/AboutPage.jsx';
 import PortfoliosPage from './Pages/PortfoliosPage.jsx';
 import ContactPage from './Pages/ContactPage.jsx';
+import BirdBackground from './Components/BirdBackground.jsx';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -31,6 +32,7 @@ function App() {
       </div>
 
       <div className="main-content">
+        <BirdBackground/>
         <div className="content">
           <AnimatePresence exitBeforeEnter>
             <Routes location={location} key={location.pathname}>

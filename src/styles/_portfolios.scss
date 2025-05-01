@@ -3,6 +3,12 @@
 }
 
 .portfolios{
+
+    position: relative;
+    z-index: 2;
+    background-color: #10121B;
+    padding: 1rem;
+    border-radius: 25px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

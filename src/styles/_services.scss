@@ -39,6 +39,9 @@
 }
 
 .services-container{
+
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;

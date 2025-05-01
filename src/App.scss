@@ -1,17 +1,18 @@
-@import './styles/about';
-@import './styles/layout';
-@import './styles/navbar';
-@import './styles/typography';
-@import './styles/title';
-@import './styles/skill';
-@import './styles/services';
-@import './styles/contact';
-@import './styles/portfolios';
-// @import './fonts/COMMODORE-64-V6.3.TTF';
-// @font-face {
-//     font-family: "sans serif";
-//     src: url('./fonts/COMMODORE-64-V6.3.TTF');
-//   }
+@use './styles/about';
+@use './styles/layout';
+@use './styles/navbar';
+@use './styles/typography';
+@use './styles/title';
+@use './styles/skill';
+@use './styles/services';
+@use './styles/contact';
+@use './styles/portfolios';
+@font-face {
+    font-family: 'C64';
+    src: url('./fonts/COMMODORE-64-V6.3.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 html,body{
     width: 100%;
@@ -42,8 +43,9 @@ body::-webkit-scrollbar-track{
 
 body{
 color: rgb(236, 170, 3); 
-font-family: 'commodore', sans-serif;
+font-family: 'C64', sans-serif;
 font-size: 1.2rem;
+line-height: 1.1;
 }
 
 span{

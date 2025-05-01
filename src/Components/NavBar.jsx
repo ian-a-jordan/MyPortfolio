@@ -32,7 +32,7 @@ function Navbar() {
           </li>
         </ul>
         <footer className="footer">
-          <p>@2022 Ian Jordan</p>
+        <p>&copy; {new Date().getFullYear()} Ian Jordan</p>
         </footer>
       </nav>
     </div>
